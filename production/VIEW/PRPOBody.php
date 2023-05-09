@@ -229,7 +229,7 @@
                               </B>
                                <input class="form-control" name="imagefilefront1" accept="image/*" type="file" id="imgfilefront">
 
-                                 <div class="row" id="dvimgfront" style="display: :none;">
+                                 <div class="row" id="dvimgfront" style="display: none;">
                                       <div class="col-md-12">
                                       	<BR/>
                                       	 <center>
@@ -251,7 +251,7 @@
                                <input class="form-control" name="imagefileright2" accept="image/*" type="file" id="imgfileright">
                                 
 
-                                 <div class="row" id="dvimgright" style="display: :none;">
+                                 <div class="row" id="dvimgright" style="display: none;">
                                       <div class="col-md-12">
                                       	<BR/>
                                       	 <center>
@@ -274,7 +274,7 @@
                                <input class="form-control" name="imagefileleft3" accept="image/*" type="file" id="imgfileleft">
                                 
 
-                                 <div class="row" id="dvimgleft" style="display: :none;">
+                                 <div class="row" id="dvimgleft" style="display: none;">
                                       <div class="col-md-12">
                                       	<BR/>
                                       	 <center>
@@ -297,7 +297,7 @@
                                <input class="form-control" name="imagefileback4" accept="image/*" type="file" id="imgfileback">
                                 
 
-                                 <div class="row" id="dvimgback" style="display: :none;">
+                                 <div class="row" id="dvimgback" style="display: none;">
                                       <div class="col-md-12">
                                       	<BR/>
                                       	 <center>
@@ -319,7 +319,7 @@
                               </B>
                               
         
-                                 <div class="row" id="dvimgqr" style="display: :none;">
+                                 <div class="row" id="dvimgqr" style="display: none;">
                                       <div class="col-md-12">
                                       	<BR/>
                                       	 <center>
