@@ -55,7 +55,20 @@
 							<ul class="nav side-menu">
 								<li><a><i class="fa fa-home"></i> Spare Parts <span class="fa fa-chevron-down"></span></a>
 									<ul class="nav child_menu">
-										<li><a href="SparepartsBODY.php">List</a></li>
+										<?php
+								         session_start(); 							                                           
+                                         if($_SESSION['name'] == 'admin')
+         								 {
+											echo '<li><a href="SparepartsBODY.php">List</a></li>
+											      <li><a href="PRPOBody.php">PR/PO</a></li>';
+         								 }   
+         								 else{
+											echo '<li><a href="SparepartsBODY.php">List</a></li>';
+         								 }
+
+								         ?>
+								</a>
+										
 									</ul>
 								</li>
 						</div>
@@ -73,8 +86,7 @@
 					<nav class="nav navbar-nav">
 						<ul class=" navbar-right">
 							<li class="nav-item dropdown open" style="padding-left: 15px;">
-								<a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false"><?php
-								                                              session_start(); 							                                           
+								<a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false"><?php						                                           
                                                                               if(empty($_SESSION['name']))
          																		 {
          																		     header("Location:../logout.php");  
