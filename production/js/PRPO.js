@@ -74,7 +74,7 @@ function GetPRPOlist(){
         $.ajax({url:"../PHP/PRPOController/Select.php", 
 
         success:function(dataabc){      
-
+             //RP PO LIST 
                     $("#tbodyvalidation").html(dataabc);     
 
 
