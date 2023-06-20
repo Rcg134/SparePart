@@ -273,7 +273,7 @@
                               </B>
                                <input class="form-control" name="imagefilefront1" accept="image/*" type="file" id="imgfilefront">
 
-                                 <div class="row" id="dvimgfront" style="display: :none;">
+                                 <div class="row" id="dvimgfront" style="display:none;">
                                       <div class="col-md-12">
                                       	<BR/>
                                       	 <center>
